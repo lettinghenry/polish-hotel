@@ -1,0 +1,33 @@
+body{
+overflow: hidden;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+
+
+top{
+overflow: auto;
+position: absolute;
+width: 100%;
+height: 200px;  
+color: green;
+}
+#main{
+overflow: auto;
+position: absolute;
+width: 100%;
+top: 200px;
+bottom: 0;  
+background-color: firebrick;
+}
+middle{
+    
+}
+
+bottom{
+    
+}
+#footer{
+    
+}
