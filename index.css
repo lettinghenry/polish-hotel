@@ -26,6 +26,10 @@ background-color: transparent;
 height:700px;
 width:100%;
 }
+#mtop{
+    width: 90%;
+    height: 50%;
+}
 
 #bottom{
 background-color:grey;
@@ -39,3 +43,4 @@ width: 100%;
 background-color: black;
 opacity: 0.9;
 }
+
