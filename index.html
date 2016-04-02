@@ -6,6 +6,7 @@
 <link type="text/css" rel="stylesheet"href="reset.css">
 <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <div id="top" >
@@ -41,10 +42,23 @@
             </div>
         </div>
         <div id="bottom">
-            <div id="b1"> </div>
-            <div id="b2"></div>
+            <div id="b1"><h1> location</h1> <br> We Are Located Here In Warsaw,<img src="http://www.clipartbest.com/cliparts/ncB/G65/ncBG65y4i.png"> <br>WelCome </div>
+            <div id="map"></div>
+            <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 52.2297, lng: 21.0122},
+          zoom: 12
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+
             </div>
-        <div id= "footer"> </div>
+
+        <div id= "footer"> <div class="centered">ABOUT</div></div>
     </div>
 </body>
 </html>

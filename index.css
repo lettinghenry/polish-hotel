@@ -78,7 +78,7 @@ font-family: 'Poiret One', cursive;
 float: left;
 }
 #middle{
-height:1150px;
+height:auto;
 width:100%;
 }
 #mtop{
@@ -119,14 +119,38 @@ overflow-x: scroll;
 #bottom{
 background-color:grey;
 width: 100%;
-height:600px;
+height:700px;
 opacity: 0.8;
 }
+#b1{
+height: 100%;
+width: 49%;
+font-family: 'Indie Flower', cursive;
+text-align: center;
+float: left;
+padding-top: 12%;
+color: yellow;
+font-size: 28px;
+}
+#b1 h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 16;
+    color: brown;
+    
+}
+#map{
+height: 100%;
+width: 49%; 
+background-color: white;
+float: right;
+}
 #footer{
-height: 100px;
+min-height: 100px;
 width: 100%;
 background-color: black;
 opacity: 0.9;
+visibility: collapse;
 }
 
 
