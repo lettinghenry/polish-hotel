@@ -12,8 +12,8 @@
     <div id="top" >
                
                     <div class="menyu" draggable="true"><button id="menu" href="#photo"> OFFER</button></div>
-                    <div class="menyu"><button id="about" href="location">ABOUT</button></div>
-                    <div class="menyu"><button id="location">HOME</button></div> 
+                    <div class="menyu"><button id="about" href="#location">ABOUT</button></div>
+                    <div class="menyu"><button id="location" href="#top">HOME</button></div> 
             
     </div>
     
